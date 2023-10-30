@@ -1,0 +1,62 @@
+#contactPage{
+    min-height: calc(10vh - 2rem);
+    width: 100vw;
+    max-width: 60rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: o.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn{
+    margin: 0.5rem;
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+}
+
+.links{
+    margin: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
