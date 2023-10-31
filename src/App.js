@@ -4,7 +4,8 @@ import Intro from "./components/intro/intro";
 import Works from "./components/Works/works";
 import Contact from "./components/Contact/contact";
 import About from "./components/About/About";
-import Projects from "./components/Projects/projects";
+
+
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <Skill/>
       <Works/>
       <Contact/>
-      <Projects/>
+    
       {/* <About/> */}
       
       

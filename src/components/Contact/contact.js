@@ -9,10 +9,11 @@ import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_0fag01s', 'template_80l3xav', form.current, 'rQRMFOxE0UzOK6tdCUi-T')
+    emailjs.sendForm('service_1glbz8m', 'template_yg81008', form.current, 'Z7rtykvNy1XTSpJnP')
       .then((result) => {
           console.log(result.text);
           e.target.reset();
@@ -27,9 +28,9 @@ const Contact = () => {
     <h1 className='contactPageTitle'>Contact Me</h1>
     <span className='contactDesc'>Please fill out the form below to discuss any work opportunity. </span>
     <form className='contactForm' ref={form} onSubmit={sendEmail}>
-        <input type='text' className='name' placeholder='Mahesh' name='your_name'/>
-        <input type='email' className='email' placeholder='mekalamahesh1542@gmail.com' name='your_mail'/>
-        <textarea className='msg' name='message' rows='5'placeholder='your message'></textarea>
+        <input type='text' className='name' placeholder='Mahesh' name='user_name'/>
+        <input type='email' className='email' placeholder='mekalamahesh1542@gmail.com' name='user_email'/>
+        <textarea className='msg' name='message' rows='5'placeholder='user_message'></textarea>
         <button type='submit' value='Send' className='submitBtn'>Submit</button>
         <div className='links'>
 

@@ -5,19 +5,26 @@ import btnImg from '../../assets/hireme.png';
 import {Link} from 'react-scroll';
 
 
+
+
 const Intro = () => {
+  
+  
   return (
     <section id='intro'>
       <div className='introContact'>
         <span className='hello'>Hello</span>
-       <span className='introText'>I'm <span className='introName'>Mahesh</span> <br /> Website Designer</span>
+       <span className='introText'>I'm <span className='introName'>Mahesh</span> <br /> Frontend Developer</span>
         <p className='introPara'> I am a skilled web designer with experience in creating <br />visually appealing and user friendly websites....</p>
-        <Link><button className='btn'><img src={btnImg} alt='hire me' className='btnImg' />Hire Me</button></Link>
+        <Link ><button className='btn'><img src={btnImg} alt='hire me' className='btnImg' />Hire Me</button></Link>
+        
       </div>
       <img src={ bg } alt='profile' className='bg'/>
 
     </section>
   )
+  
 }
+
 
 export default Intro;
